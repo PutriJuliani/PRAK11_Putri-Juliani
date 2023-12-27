@@ -1,1 +1,126 @@
 # PRAK11_Putri-Juliani
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galery foto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icons8-favicon-64.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">GALLERY FOTO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Kategori Foto
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Sport</a></li>
+                  <li><a class="dropdown-item" href="#">LifeStyle</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section id="Action">
+      <div class="container justify-center">
+        <h2>Action</h2>
+        <div class="row">
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-5">
+            <img src="https://picsum.photos/100" class="w-100" alt="Gambar Galeri Ke 1">
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-5">
+            <img src="https://picsum.photos/200" class="w-100" alt="Gambar Galeri Ke 2">
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-5">
+            <img src="https://picsum.photos/300" class="w-100" alt="Gambar Galeri Ke 3">
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-5">
+            <img src="https://picsum.photos/400" class="w-100" alt="Gambar Galeri ke 4">
+          </div>
+          <div class="col-xl-2 col-lg-6 col-md-4 col-sm-6 pb-5">
+            <img src="https://picsum.photos/700" class="w-100" alt="Gambar Galeri Ke 5">
+          </div>
+          <div class="col-xl-2 col-lg-6 col-md-4 col-sm-6 pb-5">
+            <img src="https://picsum.photos/800" class="w-100" alt="Gambar Galeri Ke 6">
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <div class="container justify-center">
+        <h2>Sport</h2>
+        <div class="row">
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-5">
+            <img src="https://picsum.photos/900" class="w-100" alt="Gambar Galeri Ke 9">
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-5">
+            <img src="https://picsum.photos/1000" class="w-100" alt="Gambar Galeri Ke 10">
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-5">
+            <img src="https://picsum.photos/1100" class="w-100" alt="Gambar Galeri Ke 11">
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-5">
+            <img src="https://picsum.photos/1200" class="w-100" alt="Gambar Galeri ke 12">
+          </div>
+          <div class="col-xl-2 col-lg-6 col-md-4 col-sm-6 pb-5">
+            <img src="https://picsum.photos/1300" class="w-100" alt="Gambar Galeri Ke 13">
+          </div>
+          <div class="col-xl-2 col-lg-6 col-md-4 col-sm-6 pb-5">
+            <img src="https://picsum.photos/1400" class="w-100" alt="Gambar Galeri Ke 14">
+          </div>
+        </div>
+      </div>
+
+      <div class="container justify-center">
+        <h2>LifeStyle</h2>
+        <div class="row">
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-5">
+            <img src="https://picsum.photos/1500" class="w-100" alt="Gambar Galeri Ke 15">
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-5">
+            <img src="https://picsum.photos/1600" class="w-100" alt="Gambar Galeri Ke 16">
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-5">
+            <img src="https://picsum.photos/1700" class="w-100" alt="Gambar Galeri Ke 17">
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-5">
+            <img src="https://picsum.photos/1800" class="w-100" alt="Gambar Galeri ke 18">
+          </div>
+          <div class="col-xl-2 col-lg-6 col-md-4 col-sm-6 pb-5">
+            <img src="https://picsum.photos/1900" class="w-100" alt="Gambar Galeri Ke 19">
+          </div>
+          <div class="col-xl-2 col-lg-6 col-md-4 col-sm-6 pb-5">
+            <img src="https://picsum.photos/2000" class="w-100" alt="Gambar Galeri Ke 20">
+          </div>
+        </div>
+      </div>
+
+
+      <footer class="text-white text-center pb-5" style="background-color: #113946;">
+        <div class="mb-3">
+          <i class="bi bi-envelope-at-fill me-2"></i>
+          <span>puputputri1707@gmail.com</span>
+        </div>
+        <div>
+          <i class="bi bi-instagram me-2"></i>
+          <a href="https://www.instagram.com/hi_pputrii?igsh=MTNlYTl4OTRnbWF5OQ%3D%3D&utm_source=qr" class="text-white">putrijuliani</a>
+        </div>
+      </footer>  
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
